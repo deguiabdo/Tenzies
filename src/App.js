@@ -64,10 +64,10 @@ setDie(allNewDies());
     <main>
       {tenzies && <Confetti />}
 
-      <div className=' w-screen h-screen bg-slate-800 p-10'>
-        <div className=' bg-white w-full h-full rounded-2xl flex flex-col   justify-around items-center'>
+      <div className=' w-screen h-screen grid place-content-center bg-slate-800 p-10'>
+        <div className=' bg-white w-full h-auto rounded-2xl flex flex-col gap-6 py-8  justify-around items-center'>
           <h1 className='font-bold text-slate-800 text-4xl '>Tenzies</h1>
-          <p className=' text-slate-600 font-bold text-center '>
+          <p className=' text-slate-600 font-bold text-center mx-4 '>
             Roll untill all dice are the same. Click each die to freeze it at
             its current value between rolls
           </p>
